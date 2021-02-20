@@ -51,7 +51,7 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`😍ڕیکلامەکە بنێرە بۆمن دایدەنێم| By : RAEES ☑️`) 
+client.user.setGame(`😍ڕێکلامەکەت بنێرە| By : RAEES ☑️`) 
 });
 
 
