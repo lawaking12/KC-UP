@@ -38,7 +38,7 @@ message.reply('**ئەگەر بەخۆت نێیە ڤۆیس ئەمنیش نایێم
 
 
  client.on('ready' , () => {
-var join = client.channels.get("812258732162809866")
+var join = client.channels.get("812397261371342888")
 if (join) join.join()
   
 
