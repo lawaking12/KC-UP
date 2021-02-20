@@ -29,7 +29,22 @@ message.reply('**ئەگەر بەخۆت نێیە ڤۆیس ئەمنیش نایێم
 
 });
 
+///////
+ 
+///////ARBELE//////
 
+
+ //////
+
+
+ client.on('ready' , () => {
+var join = client.channels.get("812258732162809866")
+if (join) join.join()
+  
+
+})
+
+////////
 client.on("message" , message => {
 
 if(message.channel.type === 'dm') {
