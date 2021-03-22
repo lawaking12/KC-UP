@@ -81,6 +81,13 @@ client.on("message", msg => {
 });
 
 /////
+client.on("message", msg => {
+  if (msg.content === "Reklam dagornawa") {
+    msg.reply(
+      "بنێرە بۆ من دڵم 😘"
+    );
+  }
+});
 /////
  client.on('ready' , () => {
 var join = client.channels.get("821361491076841505")
