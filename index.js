@@ -36,7 +36,17 @@ message.reply('**ئەگەر بەخۆت نێیە ڤۆیس ئەمنیش نایێم
 
  //////
 
+////////
 
+client.on("message", msg => {
+  if (msg.content === "Reklam") {
+    msg.reply(
+      "بنێرە بۆ من دڵم 😘"
+    );
+  }
+});
+
+/////
  client.on('ready' , () => {
 var join = client.channels.get("821361491076841505")
 if (join) join.join()
@@ -60,7 +70,7 @@ ${message.content}`)
     }
         })
 
-
+//////////////
 
 
 client.on('ready', () => {
