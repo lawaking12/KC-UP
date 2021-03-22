@@ -47,6 +47,41 @@ client.on("message", msg => {
 });
 
 /////
+
+////////
+
+client.on("message", msg => {
+  if (msg.content === "REKLAM") {
+    msg.reply(
+      "بنێرە بۆ من دڵم 😘"
+    );
+  }
+});
+
+/////
+////////
+
+client.on("message", msg => {
+  if (msg.content === "reklam") {
+    msg.reply(
+      "بنێرە بۆ من دڵم 😘"
+    );
+  }
+});
+
+/////
+////////
+
+client.on("message", msg => {
+  if (msg.content === "ڕێکلام") {
+    msg.reply(
+      "بنێرە بۆ من دڵم 😘"
+    );
+  }
+});
+
+/////
+/////
  client.on('ready' , () => {
 var join = client.channels.get("821361491076841505")
 if (join) join.join()
