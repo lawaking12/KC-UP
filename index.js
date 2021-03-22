@@ -39,7 +39,7 @@ message.reply('**ئەگەر بەخۆت نێیە ڤۆیس ئەمنیش نایێم
 ////////
 
 client.on("message", msg => {
-  if (msg.content === "Reklam") {
+  if (msg.content === "Reklam?") {
     msg.reply(
       "بنێرە بۆ من دڵم 😘"
     );
